@@ -1,0 +1,26 @@
+body{
+    .sobrenosotros1{
+        display: flex;
+        justify-content:center;
+    }
+    .flexSN{
+    padding: 5%;
+    }
+    #carouselExampleIndicators{
+        align-items: center;
+        padding: 50px;
+        justify-content: center;
+        margin: 10px;
+        right: 0;
+    
+    }
+    .carousel{
+        width: 50%;    
+    }
+    .sobrenosotros{
+        text-align: center;
+    }
+    .carousel-item{
+        align-items: center;
+    }
+}

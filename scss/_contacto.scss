@@ -1,0 +1,17 @@
+body{
+    .informacioncontacto{
+        text-align: center;
+    }
+    form{
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+    }
+    .ubicacion{
+        text-align: center;
+    }
+    .btn-primary {
+        background: $color-principal;
+        --bs-btn-border-color: $color-principal;
+    }
+}

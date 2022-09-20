@@ -1,0 +1,52 @@
+body{
+    .arepas{
+        @include grid();
+        @include producto();
+        img {
+            margin-top: 30px;
+            border-radius: 150px;
+            padding: 25px;
+            transition: all 0.5s ease;
+            height: 200px;                   
+            &:hover{
+                transition: all 0.5s ease;
+                transform: scale(.5,1);
+            }
+        }
+    }
+    .TitulosProductos{
+        margin-top: 25px;
+        text-align: center;
+        font-size: map-get($font-sz, font-m);
+    }
+    .tequeños{
+        @include grid();
+        @include producto();
+        img {
+            @extend .img;
+            height: 180px;
+            &:hover{
+                transition: all 0,5s ease;
+                transform: scale(.5,1);
+            }
+         }
+    }
+    .picadas{
+        @include grid();
+        @include producto();
+        img{
+            @extend .img;
+            height: 230px;
+            &:hover{
+                transition: all 0,5s ease;
+                transform: scale(.5,1);
+            }
+        }
+    }
+
+    section p{
+        font-weight: bold;
+    }
+}
+
+

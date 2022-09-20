@@ -1,0 +1,18 @@
+.footer{
+    padding-top: 10px;
+    display: flex;
+    justify-content:center;
+
+    .redes-sociales
+        img{
+            width: 30px;
+            justify-content: center;
+        }
+    .footertext{
+        text-align: center;
+        line-height: 5px;
+        padding: 0px 30px;
+    }
+
+}
+
